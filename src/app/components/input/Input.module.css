@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input label {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.input input {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 1rem;
+
+  font-size: 1.125rem;
+  font-family: "SpareBank 1";
+}
