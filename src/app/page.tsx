@@ -1,3 +1,4 @@
+import ClimateTax from "./components/climateTax/ClimateTax";
 import CompanyInfoForm from "./components/forms/CompanyInfoForm";
 import Hero from "./components/hero/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div>
         <Hero />
         <CompanyInfoForm />
+        <ClimateTax />
       </div>
     </main>
   );
