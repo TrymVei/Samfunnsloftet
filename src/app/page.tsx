@@ -1,3 +1,4 @@
+import CompanyInfoForm from "./components/forms/CompanyInfoForm";
 import Hero from "./components/hero/Hero";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <main>
       <div>
         <Hero />
+        <CompanyInfoForm />
       </div>
     </main>
   );

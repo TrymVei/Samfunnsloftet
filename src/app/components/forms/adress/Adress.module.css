@@ -1,0 +1,12 @@
+.adress {
+  font-family: "SpareBank 1";
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.adress strong {
+  font-family: "SpareBank 1 Bold";
+}
