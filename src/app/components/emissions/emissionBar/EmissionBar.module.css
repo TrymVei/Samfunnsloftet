@@ -1,0 +1,51 @@
+.emissionBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.emissionBar_label {
+  color: var(--Primrfarger-Fjell);
+  font-family: "Sparebank 1 Bold";
+}
+
+.emissionBar_bar_wrapper {
+  position: relative;
+  height: 30px;
+}
+
+.emissionBar_bar,
+.emissionBar_bar_best,
+.emissionBar_bar_company {
+  border-radius: 0.25rem;
+  position: absolute;
+}
+
+.emissionBar_bar,
+.emissionBar_bar_best {
+  height: 22px;
+  /* 30-22 / 2 to find center */
+  top: 4px;
+}
+
+.emissionBar_bar {
+  width: 100%;
+  background-color: var(--Nytrale-farger-Lys-gr);
+}
+
+.emissionBar_bar_best {
+  background-color: var(--Primrfarger-Frost);
+}
+
+.emissionBar_bar_company {
+  height: 30px;
+  width: 9px;
+  top: 0;
+  left: 200px;
+  background-color: var(--Primrfarger-Fjell);
+}
+
+.emissionBar_emissions {
+  display: flex;
+  gap: 0.5rem;
+}

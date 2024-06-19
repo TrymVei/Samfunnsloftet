@@ -1,0 +1,14 @@
+.emissionDescription {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.emissionDescription_color {
+  border-radius: 0.25rem;
+  background-color: red;
+}
+
+.emissionDescription > p {
+  font-family: "Sparebank 1";
+}
