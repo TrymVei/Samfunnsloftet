@@ -1,0 +1,12 @@
+.taxLabel {
+  font-family: "Roboto Bold";
+  color: var(--Primrfarger-Fjell);
+  white-space: nowrap;
+
+  background: var(--Primrfarger-Sand);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
