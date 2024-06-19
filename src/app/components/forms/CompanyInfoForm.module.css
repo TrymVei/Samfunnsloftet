@@ -1,0 +1,8 @@
+.companyInfoForm_year {
+  color: var(--Nytrale-farger-Hvit);
+  font-family: "SpareBank 1 Italic";
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
