@@ -1,0 +1,14 @@
+.colorDescription {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.colorDescription_color {
+  border-radius: 0.25rem;
+  background-color: red;
+}
+
+.colorDescription>p {
+  font-family: "Sparebank 1";
+}
