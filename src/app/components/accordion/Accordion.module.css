@@ -1,0 +1,44 @@
+.accordion {
+  padding: 0.5rem 1rem;
+  border-radius: 0.875rem;
+  position: relative;
+}
+
+.accordion__title,
+.accordion strong {
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-family: "SpareBank 1 Bold";
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+.accordion button {
+  position: absolute;
+  bottom: 0.63rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.accordion__content {
+  overflow: hidden;
+  max-height: 74px;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  background: linear-gradient(180deg, #000 -30.18%, rgba(0, 0, 0, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion__content__expanded {
+  max-height: 1000px;
+  padding-bottom: 4rem;
+  background: none;
+  background-clip: initial;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}
