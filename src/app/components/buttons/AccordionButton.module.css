@@ -1,0 +1,8 @@
+.button {
+  border-radius: 2.5rem;
+  background: var(--Stttefarger-Skog);
+  color: var(--Nytrale-farger-Hvit);
+  border: none;
+  padding: 0.38rem 1.5rem;
+  font-family: "Sparebank 1";
+}
