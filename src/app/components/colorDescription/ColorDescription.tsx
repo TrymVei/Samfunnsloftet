@@ -17,9 +17,9 @@ export default function ColorDescription({
   height = "9px",
 }: ColorDescriptionProps) {
   return (
-    <label className={style.emissionDescription}>
+    <label className={style.colorDescription}>
       <span
-        className={style.emissionDescription_color}
+        className={style.colorDescription_color}
         style={{ backgroundColor: hexColor, width: width, height: height }}
       ></span>
       <p>
