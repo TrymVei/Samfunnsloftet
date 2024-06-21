@@ -1,0 +1,34 @@
+.emissionBar_bar_wrapper {
+  position: relative;
+}
+
+.emissionBar_bar,
+.emissionBar_bar_best,
+.emissionBar_bar_company {
+  border-radius: 0.25rem;
+  position: absolute;
+}
+
+.emissionBar_bar,
+.emissionBar_bar_best,
+.emissionBar_bar_company {
+  height: 22px;
+  /* 30-22 / 2 to find center */
+  top: 4px;
+}
+
+.emissionBar_bar {
+  z-index: 0;
+  width: 100%;
+  background-color: var(--Nytrale-farger-Lys-gr);
+}
+
+.emissionBar_bar_best {
+  z-index: 2;
+  background-color: var(--Primrfarger-Frost);
+}
+
+.emissionBar_bar_company {
+  z-index: 1;
+  background-color: var(--Primrfarger-Fjell);
+}
