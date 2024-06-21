@@ -1,0 +1,39 @@
+.range[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--Primrfarger-Fjell);
+  border-radius: 5rem;
+  height: 5px;
+  outline: none;
+  /* Remove default outline for better appearance */
+}
+
+/* Webkit (Chrome, Safari, Edge) */
+.range[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: var(--Nytrale-farger-Hvit);
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+/* Mozilla (Firefox) */
+.range[type="range"]::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  background: var(--Nytrale-farger-Hvit);
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+/* Internet Explorer and Edge */
+.range[type="range"]::-ms-thumb {
+  width: 30px;
+  height: 30px;
+  background: var(--Nytrale-farger-Hvit);
+  border-radius: 5rem;
+  cursor: pointer;
+}
