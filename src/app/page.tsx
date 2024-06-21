@@ -1,6 +1,7 @@
 import CenterText from "./components/centerText/CenterText";
 import ClimateTax from "./components/climateTax/ClimateTax";
 import Emissions from "./components/emissions/Emissions";
+import EmissionsTop from "./components/emissionsTop/EmissionsTop";
 import CompanyInfoForm from "./components/forms/CompanyInfoForm";
 import Revenue from "./components/forms/Revenue";
 import Hero from "./components/hero/Hero";
@@ -21,6 +22,7 @@ export default function Home() {
           utslippene dine.
         </CenterText>
         <Revenue />
+        <EmissionsTop />
       </div>
     </main>
   );

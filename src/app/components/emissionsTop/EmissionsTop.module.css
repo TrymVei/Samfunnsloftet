@@ -1,0 +1,9 @@
+.emission_top__color_descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.emission_top__color_descriptions p {
+  font-size: 0.75rem;
+}
