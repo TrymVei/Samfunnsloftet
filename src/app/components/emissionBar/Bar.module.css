@@ -1,0 +1,26 @@
+.bar__wrapper {
+  position: relative;
+}
+
+.bar__highest,
+.bar__lowest,
+.bar__company {
+  border-radius: 0.25rem;
+  position: absolute;
+  height: 22px;
+}
+
+.bar__highest {
+  z-index: 0;
+  background-color: var(--Nytrale-farger-Lys-gr);
+}
+
+.bar__lowest {
+  z-index: 2;
+  background-color: var(--Primrfarger-Frost);
+}
+
+.bar__company {
+  z-index: 1;
+  background-color: var(--Primrfarger-Fjell);
+}
