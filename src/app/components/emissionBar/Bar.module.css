@@ -1,34 +1,26 @@
-.emissionBar_bar_wrapper {
+.bar__wrapper {
   position: relative;
 }
 
-.emissionBar_bar,
-.emissionBar_bar_best,
-.emissionBar_bar_company {
+.bar__highest,
+.bar__lowest,
+.bar__company {
   border-radius: 0.25rem;
   position: absolute;
-}
-
-.emissionBar_bar,
-.emissionBar_bar_best,
-.emissionBar_bar_company {
   height: 22px;
-  /* 30-22 / 2 to find center */
-  top: 4px;
 }
 
-.emissionBar_bar {
+.bar__highest {
   z-index: 0;
-  width: 100%;
   background-color: var(--Nytrale-farger-Lys-gr);
 }
 
-.emissionBar_bar_best {
+.bar__lowest {
   z-index: 2;
   background-color: var(--Primrfarger-Frost);
 }
 
-.emissionBar_bar_company {
+.bar__company {
   z-index: 1;
   background-color: var(--Primrfarger-Fjell);
 }

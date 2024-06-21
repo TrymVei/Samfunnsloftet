@@ -19,17 +19,17 @@ export default function Bar({
   }
 
   return (
-    <div className={style.emissionBar_bar_wrapper}>
+    <div className={style.bar__wrapper}>
       <span
-        className={style.emissionBar_bar}
+        className={style.bar__highest}
         style={{ width: `${calculateBarWidth(highestEmission)}%` }}
       />
       <span
-        className={style.emissionBar_bar_best}
+        className={style.bar__lowest}
         style={{ width: `${calculateBarWidth(lowestEmission)}%` }}
       />
       <span
-        className={style.emissionBar_bar_company}
+        className={style.bar__company}
         style={{
           width: `${calculateBarWidth(companyEmission)}%`,
         }}
