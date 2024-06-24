@@ -13,11 +13,20 @@ export default function Graph() {
           stroke: {
             curve: "smooth",
           },
+
+          chart: {
+            toolbar: {
+              show: false,
+            },
+          },
+          colors: ["#002776", "#DFDFDF", "#7EB5D2"],
+          fill: {
+            type: "solid",
+          },
         }}
         series={[
           {
             name: "Du gjør ingenting",
-            color: "black",
             type: "area",
             zIndex: 2,
             data: [
