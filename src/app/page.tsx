@@ -5,6 +5,7 @@ import EmissionsTop from "./components/emissionsTop/EmissionsTop";
 import CompanyInfoForm from "./components/forms/CompanyInfoForm";
 import Revenue from "./components/forms/Revenue";
 import Hero from "./components/hero/Hero";
+import EmissionGraph from "./components/input/emissionGraph/EmissionGraph";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           utslippene dine.
         </CenterText>
         <Revenue />
+        <EmissionGraph />
         <EmissionsTop />
       </div>
     </main>
