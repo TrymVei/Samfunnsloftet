@@ -15,6 +15,7 @@ export default function Card({ children }: CardProps) {
         {childrenArray.map((child, index) => {
           return (
             <div
+              key={index}
               className={`${pageIndex === index ? style.card__visible : style.card__hidden}`}
             >
               {child}
