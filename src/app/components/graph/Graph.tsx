@@ -6,7 +6,13 @@ export default function Graph() {
   return (
     <div>
       <Chart
+        width={"100%"}
+        height={300}
+        type="area"
         options={{
+          dataLabels: {
+            enabled: false,
+          },
           xaxis: {
             categories: [2024, 2025, 2026, 2027, 2028, 2029, 2030],
           },
@@ -27,7 +33,6 @@ export default function Graph() {
         series={[
           {
             name: "Du gjør ingenting",
-            type: "area",
             zIndex: 2,
             data: [
               2500,
@@ -40,7 +45,6 @@ export default function Graph() {
           },
           {
             name: "Dårligste",
-            type: "area",
             data: [
               2500,
               2500 * 1.2,
@@ -52,7 +56,6 @@ export default function Graph() {
           },
           {
             name: "Beste",
-            type: "area",
             data: [
               2500,
               2500 * 0.9,
