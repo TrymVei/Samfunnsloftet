@@ -26,7 +26,7 @@ export default function EmissionTable() {
         {sortedEmissionRows.map((row) => {
           findMaxEmission(row.industryEmission.highest);
           return (
-            <tr>
+            <tr key={row.category}>
               <th>
                 <p>{row.category}</p>
               </th>
